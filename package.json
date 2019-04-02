@@ -2,7 +2,11 @@
   "name": "generate-react-components",
   "version": "1.0.0",
   "description": "A project to generate React components",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:M0nica/generate-react-components.git"
+  },
+  "main": "plopfile.js",
   "author": "Monica Powell",
   "license": "MIT",
   "devDependencies": {
