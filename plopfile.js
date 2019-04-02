@@ -12,11 +12,11 @@ module.exports = function (plop) {
         }],
         actions: [{
             type: 'add',
-            path: 'src/components/{{name}}.js',
+            path: 'src/components/{{name}}.jsx',
             templateFile: 'src/plop-templates/stateless.hbs'
         },{
             type: 'add',
-            path: 'src/components/{{name}}.test.js',
+            path: 'src/components/{{name}}.test.jsx',
             templateFile: 'src/plop-templates/tests.hbs'
         } ]
     });
